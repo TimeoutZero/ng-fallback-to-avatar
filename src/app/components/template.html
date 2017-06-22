@@ -1,0 +1,15 @@
+
+<div
+  ng-if="fallbackToAvatar.fallbackIsActive && fallbackToAvatar.ready"
+  ng-letter-avatar
+  data="{{fallbackToAvatar.avatar.data}}"
+  height="{{fallbackToAvatar.avatar.height}}"
+  width="{{fallbackToAvatar.avatar.width}}"
+  fontSize="{{fallbackToAvatar.avatar.fontSize}}"
+  shape="{{fallbackToAvatar.avatar.shape}}"
+  class="{{fallbackToAvatar.className}}"></div>
+
+<img
+  ng-if="!fallbackToAvatar.fallbackIsActive && fallbackToAvatar.ready"
+  class="{{fallbackToAvatar.img.className}}"
+  ng-src="{{ fallbackToAvatar.img.url ? fallbackToAvatar.img.url : 'not-a-picture' }}"></img>

@@ -1,0 +1,58 @@
+{
+  "name": "ng-fallback-to-avatar",
+  "description": "Fallback to avatar",
+  "authors": [
+    "Carlos Henrique <carloshpds@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TimeoutZero/ng-fallback-to-avatar.git"
+  },
+  "main": [
+    "builds/release/ngFallbackToAvatar.js"
+  ],
+  "devDependencies": {
+    "angular-resource": "1.4.6",
+    "angular-mocks": "1.4.6"
+  },
+
+  "dependencies": {
+    "angular": "1.4.7",
+    "ng-letter-avatar": "ngletteravatar#^4.0.4"
+  },
+
+  "resolutions": {
+    "angular": "1.4.7",
+    "angular-touch": "1.4.6"
+  },
+  "overrides": {},
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "angular",
+    "ng",
+    "ui",
+    "select",
+    "ui-select",
+    "ng-fill-height",
+    "br",
+    "web-components"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src",
+    "demo",
+    ".vscode",
+    "test",
+    "tests",
+    "gulpfile.js",
+    "karma.conf.js",
+    "package.json"
+  ],
+  "license": "MIT"
+}
